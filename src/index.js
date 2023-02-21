@@ -11,6 +11,9 @@ const server = express();
 server.use(cors());
 server.use(express.json({ limit: '25mb' }));
 
+console.log('ENV VARIABLES:');
+console.dir(process.env);
+
 // Arrancamos el servidor en el puerto 3000
 const serverPort = 3000;
 server.listen(serverPort, () => {
