@@ -1,0 +1,24 @@
+{
+  "name": "project-promo-x-module-4-team-profes",
+  "version": "1.0.0",
+  "description": "Testing project",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/igarrido-testing-things/project-promo-X-module-4-team-profes.git"
+  },
+  "author": "Adalab",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/igarrido-testing-things/project-promo-X-module-4-team-profes/issues"
+  },
+  "homepage": "https://github.com/igarrido-testing-things/project-promo-X-module-4-team-profes#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  }
+}
